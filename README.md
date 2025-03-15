@@ -1,38 +1,32 @@
-# Projet Pacman
-Projet Pacman
-# Prérequis
-Assurez-vous d'avoir les éléments suivants installés sur votre système :
+# Introduction = 
+
+A multiplayer Pac-Man game implemented using Java sockets and JEE web technologies, enabling real-time gameplay for users connected within the same network. The project features a comprehensive web interface that allows players to access game history, match results, and provides full CRUD (Create, Read, Update, Delete) functionality for managing user profiles and game sessions. By integrating network programming and web technologies, this project demonstrates advanced skills in distributed systems, real-time communication, and full-stack web development.
+
+# requires :
 - Maven (version 3.x)
 - Java JDK (version 8)
 
-Vous pouvez vérifier si ils sont installés en exécutant les commandes suivantes dans votre terminal :
 ```bash
 mvn -v
 java --version
 ```
-Assurez-vous que la version de Java affichée est la version 8.
-
 
 # Installation
-Clonez le projet, accédez au répertoire du projetet et suivez les étapes suivantes: 
-## Stape 1 : Lancement de la base de données 
-Executez cette commande 
+Clone the project 
+## Stape 1 : 
 ```bash
 ./dataBase-PacMan/run.sh
 ```
-## Stape 2 : Lancement du site web 
-Executez cette commande 
+## Stape 2 : JEE App 
 ```bash
 ./web-pacman/runWithDocker.sh
 ```
-## Stape 3 : Lancement du serveur du jeu 
-Ouvrez une nouveau tirminale et executez cette commande 
+## Stape 3 : Java desktop App - server
 ```bash
 ./serveur-pacman/runWithDocker.sh
 ```
 
-## Stape 3 : Lancement du client du jeu 
-Ouvrez une nouveau tirminale et executez cette commande 
+## Stape 3 : Java desktop App - client 
 ```bash
 ./client-pacman/run.sh
 ```
