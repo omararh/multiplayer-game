@@ -13,7 +13,7 @@ java --version
 
 # Installation
 Clone the project 
-## Stape 1 : 
+## Stape 1 : SQL DB 
 ```bash
 ./dataBase-PacMan/run.sh
 ```
